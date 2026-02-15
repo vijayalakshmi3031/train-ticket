@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import mysql.connector
 
 app = Flask(__name__)
-
+##Test
 # ---------- MySQL CONNECTION ----------
 db = mysql.connector.connect(
     host="localhost",
